@@ -28,7 +28,7 @@
             "config": {}
           }
         ],
-        "lastUpdated": 1598869312645,
+        "lastUpdated": 1598871003902,
         "testCases": {
           "6cc04767-9936-4dfc-994a-1b65ddb3a204": {
             "id": "6cc04767-9936-4dfc-994a-1b65ddb3a204",
@@ -153,8 +153,16 @@
       {
         "lambdaId": "all",
         "varKey": "persistOff",
-        "varValue": null,
+        "varValue": "ggggggggg",
         "shouldPersist": "12121212",
+        "displayOnly": false,
+        "editable": true
+      },
+      {
+        "lambdaId": "all",
+        "varKey": "persistoff1212",
+        "varValue": null,
+        "shouldPersist": false,
         "displayOnly": false,
         "editable": true
       }
@@ -186,7 +194,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1598870490666
+    "lastSave": 1598872097177
   },
   "VCS_STATE": {
     "provider": "GitHub",

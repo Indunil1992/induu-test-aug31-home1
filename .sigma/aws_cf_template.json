@@ -14,9 +14,9 @@
       "Type": "String",
       "Description": "Value of the environment variable: testKey, for all Lambdas"
     },
-    "envVarpersistOffParameter": {
+    "envVarpersistoff1212Parameter": {
       "Type": "String",
-      "Description": "Value of the environment variable: persistOff, for all Lambdas"
+      "Description": "Value of the environment variable: persistoff1212, for all Lambdas"
     }
   },
   "Outputs": {
@@ -140,8 +140,9 @@
               "Ref": "envVartestKeyParameter"
             },
             "persistOn": "111111111",
-            "persistOff": {
-              "Ref": "envVarpersistOffParameter"
+            "persistOff": "ggggggggg",
+            "persistoff1212": {
+              "Ref": "envVarpersistoff1212Parameter"
             },
             "SIGMA_AWS_ACC_ID": {
               "Ref": "AWS::AccountId"
@@ -194,7 +195,7 @@
         "Principal": "apigateway.amazonaws.com"
       }
     },
-    "apiglandingPageDeployment1598870501268": {
+    "apiglandingPageDeployment1598872105200": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": "4kge6uo04a",
