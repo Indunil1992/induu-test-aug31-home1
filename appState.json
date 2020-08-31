@@ -28,7 +28,7 @@
             "config": {}
           }
         ],
-        "lastUpdated": 1598868163066,
+        "lastUpdated": 1598869312645,
         "testCases": {
           "6cc04767-9936-4dfc-994a-1b65ddb3a204": {
             "id": "6cc04767-9936-4dfc-994a-1b65ddb3a204",
@@ -71,7 +71,7 @@
           "proxyIntegration": false,
           "enableCORS": false,
           "stageMode": 0,
-          "stageName": "test31436",
+          "stageName": "prod100",
           "mode": 1
         }
       },
@@ -89,7 +89,7 @@
     "customTemplate": {
       "syntax": "JSON",
       "overrideDefault": false,
-      "dialect": null,
+      "dialect": "CloudFormation",
       "definitions": null
     },
     "envVariables": [
@@ -127,7 +127,6 @@
           "dev": true,
           "notRemovable": false
         },
-      
         "qa": {
           "name": "qa",
           "version": "0.0.1",
@@ -146,7 +145,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1598868216930
+    "lastSave": 1598869522459
   },
   "VCS_STATE": {
     "provider": "GitHub",
