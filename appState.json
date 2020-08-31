@@ -24,7 +24,7 @@
         },
         "triggers": [
           {
-            "resourceName": "apigTestAPIqainduany",
+            "resourceName": "apiglandingPageindunilqatstany",
             "config": {}
           }
         ],
@@ -84,6 +84,31 @@
             "name": "as2-test-lahiru"
           }
         }
+      },
+      "apiglandingPageindunilqatstany": {
+        "name": "apiglandingPageindunilqatstany",
+        "type": "API_GATEWAY",
+        "config": {
+          "apiType": 1,
+          "apiMode": 1,
+          "apiName": "landingPage",
+          "apiId": "4kge6uo04a",
+          "endpointType": "EDGE",
+          "rootResourceId": "i65mgpb7wc",
+          "existingResources": {
+            "/": "i65mgpb7wc",
+            "/landing-page": "z502lc"
+          },
+          "resourceMode": 0,
+          "resourceName": "indunil/qa/tst",
+          "resourcePath": "/indunil/qa/tst",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 0,
+          "stageName": "test123",
+          "mode": 1
+        }
       }
     },
     "customTemplate": {
@@ -112,6 +137,22 @@
       {
         "lambdaId": "all",
         "varKey": "testKey",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": true
+      },
+      {
+        "lambdaId": "all",
+        "varKey": "persistOn",
+        "varValue": "111111111",
+        "shouldPersist": true,
+        "displayOnly": false,
+        "editable": true
+      },
+      {
+        "lambdaId": "all",
+        "varKey": "persistOff",
         "varValue": null,
         "shouldPersist": false,
         "displayOnly": false,
@@ -145,7 +186,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1598869522459
+    "lastSave": 1598870490666
   },
   "VCS_STATE": {
     "provider": "GitHub",
