@@ -17,8 +17,8 @@
         "config": {
           "runtime": "nodejs10.x",
           "handler": "handler",
-          "timeout": 60,
-          "memory": 128,
+          "timeout": 70,
+          "memory": 148,
           "layers": [],
           "name": "induuTestAug31Home1"
         },
@@ -71,17 +71,17 @@
           "proxyIntegration": false,
           "enableCORS": false,
           "stageMode": 0,
-          "stageName": "test316",
+          "stageName": "test31436",
           "mode": 1
         }
       },
-      "s3induuuu": {
-        "name": "s3induuuu",
+      "s3as2-test-lahiru": {
+        "name": "s3as2-test-lahiru",
         "type": "S3",
         "config": {
           "mode": 1,
           "bucket": {
-            "name": "induuuu"
+            "name": "as2-test-lahiru"
           }
         }
       }
@@ -103,15 +103,15 @@
       },
       {
         "lambdaId": "all",
-        "varKey": "testKey1",
-        "varValue": "213467123656",
+        "varKey": "testKey3",
+        "varValue": "213467123653",
         "shouldPersist": true,
         "displayOnly": false,
         "editable": true
       },
       {
         "lambdaId": "all",
-        "varKey": "testKey2",
+        "varKey": "testKey",
         "varValue": null,
         "shouldPersist": false,
         "displayOnly": false,
@@ -127,12 +127,7 @@
           "dev": true,
           "notRemovable": false
         },
-        "test": {
-          "name": "test",
-          "version": "0.6.0",
-          "dev": false,
-          "language": "nodejs"
-        },
+      
         "qa": {
           "name": "qa",
           "version": "0.0.1",
@@ -146,7 +141,7 @@
     "sigmaVersion": "1.4.2",
     "projectName": "induu-test-aug31-home1",
     "projectDescription": "P Des Test-1",
-    "projectVersion": "1.0.0",
+    "projectVersion": "2.0.0",
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "language": "nodejs",
