@@ -1,0 +1,163 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "e3a44c05-93eb-47e1-8c2d-7c57097931b6": {
+        "id": "e3a44c05-93eb-47e1-8c2d-7c57097931b6",
+        "parent": null,
+        "name": "induu-test-aug31-home1.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "induu-test-aug31-home1.js",
+        "cursor": {
+          "lineNumber": 15,
+          "column": 49
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "induuTestAug31Home1"
+        },
+        "triggers": [
+          {
+            "resourceName": "apigTestAPIqainduany",
+            "config": {}
+          }
+        ],
+        "lastUpdated": 1598868163066,
+        "testCases": {
+          "6cc04767-9936-4dfc-994a-1b65ddb3a204": {
+            "id": "6cc04767-9936-4dfc-994a-1b65ddb3a204",
+            "name": "Test event",
+            "functionId": "e3a44c05-93eb-47e1-8c2d-7c57097931b6",
+            "event": "{\"key1\": \"value1\", \"key2\": \"value2\", \"key3\": \"value3\"}",
+            "eventTemplate": "hello-world"
+          }
+        }
+      }
+    },
+    "openFiles": [
+      "e3a44c05-93eb-47e1-8c2d-7c57097931b6"
+    ],
+    "currentFileId": "e3a44c05-93eb-47e1-8c2d-7c57097931b6",
+    "resources": {
+      "apigTestAPIqainduany": {
+        "name": "apigTestAPIqainduany",
+        "type": "API_GATEWAY",
+        "config": {
+          "apiType": 1,
+          "apiMode": 1,
+          "apiName": "TestAPI",
+          "apiId": "0itznun7w3",
+          "endpointType": "EDGE",
+          "rootResourceId": "h2lelj6j7k",
+          "existingResources": {
+            "/MyLambda": "98nqbj",
+            "/": "h2lelj6j7k",
+            "/newchange/test": "k6pdhn",
+            "/newchange": "q1ox7l",
+            "/testWithSlash": "q4m4g1",
+            "/testtwospeciallambda": "q4szm3",
+            "/testtwospecialkumutest": "wey3lk"
+          },
+          "resourceMode": 0,
+          "resourceName": "qa/indu",
+          "resourcePath": "/qa/indu",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 0,
+          "stageName": "test316",
+          "mode": 1
+        }
+      },
+      "s3induuuu": {
+        "name": "s3induuuu",
+        "type": "S3",
+        "config": {
+          "mode": 1,
+          "bucket": {
+            "name": "induuuu"
+          }
+        }
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      },
+      {
+        "lambdaId": "all",
+        "varKey": "testKey1",
+        "varValue": "213467123656",
+        "shouldPersist": true,
+        "displayOnly": false,
+        "editable": true
+      },
+      {
+        "lambdaId": "all",
+        "varKey": "testKey2",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": true
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "aws-sdk": {
+          "name": "aws-sdk",
+          "language": "nodejs",
+          "version": "2.644.0",
+          "dev": true,
+          "notRemovable": false
+        },
+        "test": {
+          "name": "test",
+          "version": "0.6.0",
+          "dev": false,
+          "language": "nodejs"
+        },
+        "qa": {
+          "name": "qa",
+          "version": "0.0.1",
+          "dev": false,
+          "language": "nodejs"
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.4.2",
+    "projectName": "induu-test-aug31-home1",
+    "projectDescription": "P Des Test-1",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1598868216930
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "induu-test-aug31-home1",
+      "url": "https://github.com/Indunil1992/induu-test-aug31-home1"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "induu-test-aug31-home1",
+  "version": "1.0.0",
+  "dependencies": {
+    "test": "0.6.0",
+    "qa": "0.0.1"
+  },
+  "devDependencies": {
+    "aws-sdk": "2.644.0"
+  }
+}
