@@ -154,7 +154,7 @@
         "lambdaId": "all",
         "varKey": "persistOff",
         "varValue": null,
-        "shouldPersist": false,
+        "shouldPersist": "12121212",
         "displayOnly": false,
         "editable": true
       }
