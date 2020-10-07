@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "induu-test-aug31-home1.js",
         "cursor": {
-          "lineNumber": 15,
-          "column": 49
+          "lineNumber": 14,
+          "column": 10
         },
         "config": {
           "runtime": "nodejs10.x",
@@ -28,7 +28,7 @@
             "config": {}
           }
         ],
-        "lastUpdated": 1598871003902,
+        "lastUpdated": 1602056715948,
         "testCases": {
           "6cc04767-9936-4dfc-994a-1b65ddb3a204": {
             "id": "6cc04767-9936-4dfc-994a-1b65ddb3a204",
@@ -186,7 +186,7 @@
     }
   },
   "PROJECT_META": {
-    "sigmaVersion": "1.4.2",
+    "sigmaVersion": "1.4.3.1",
     "projectName": "induu-test-aug31-home1",
     "projectDescription": "P Des Test-1",
     "projectVersion": "2.0.0",
@@ -194,7 +194,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1598872097177
+    "lastSave": 1602056818491
   },
   "VCS_STATE": {
     "provider": "GitHub",
